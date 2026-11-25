@@ -1081,9 +1081,25 @@
       refreshAccountUI();
     </script>
 
-  <div id="loona-legal-bar" style="background:#062e2a;color:#f3e9c8;text-align:center;padding:14px 12px;font:14px/1.6 system-ui,sans-serif;border-top:3px solid #d4af37;margin-top:24px">
+  
+<div style="max-width:820px;margin:26px auto;padding:6px 18px 10px;line-height:1.7;font-family:system-ui,sans-serif">
+<h2>What is Loona Talk?</h2>
+<p>Loona Talk lets you have a real spoken conversation with two AI companions, Ayan and Anaya &mdash; free, with no sign-up. Tap a name, allow the microphone, and just speak: they listen, answer and talk back in English, Urdu or Roman Urdu.</p>
+<h3>How it works in 3 steps</h3>
+<ol>
+<li><strong>Tap Ayan or Anaya.</strong> The call starts right away; your browser will ask for microphone permission the first time.</li>
+<li><strong>Just speak.</strong> Your browser turns your voice into text and the live Loona AI engine writes the companion's reply.</li>
+<li><strong>Hear the reply.</strong> Your browser speaks the answer aloud. You can also type instead, open the transcript, mute, or end the call whenever you like.</li>
+</ol>
+<h3>Example uses</h3>
+<p>Practise spoken English or Urdu with a patient partner before an interview or presentation. Ask questions aloud when typing is slow or difficult. Rehearse what you want to say, or simply think out loud with someone who responds.</p>
+<h3>Honest limits</h3>
+<p>Your spoken words are transcribed and processed by the Loona Engine on Make.com (EU1) so the companion can reply &mdash; do not share passwords or private secrets on a call. Speech works best in Chrome in a quiet room, and as the call screen warns, Ayan and Anaya can make mistakes, so double-check important information. More on the <a href="faq.html">Loona Talk FAQ page</a> and the <a href="about.html">About page</a>.</p>
+</div>
+
+<div id="loona-legal-bar" style="background:#062e2a;color:#f3e9c8;text-align:center;padding:14px 12px;font:14px/1.6 system-ui,sans-serif;border-top:3px solid #d4af37;margin-top:24px">
 © 2026 Loona Automation · Contact: <a href="mailto:loonaautomation@gmail.com" style="color:#ffd95e">loonaautomation@gmail.com</a><br>
-<a href="index.html" style="color:#ffd95e;margin:0 8px">Home</a>·<a href="about.html" style="color:#ffd95e;margin:0 8px">About</a>·<a href="contact.html" style="color:#ffd95e;margin:0 8px">Contact</a>·<a href="privacy-policy.html" style="color:#ffd95e;margin:0 8px">Privacy Policy</a>
+<a href="index.html" style="color:#ffd95e;margin:0 8px">Home</a>·<a href="about.html" style="color:#ffd95e;margin:0 8px">About</a>·<a href="contact.html" style="color:#ffd95e;margin:0 8px">Contact</a>·<a href="privacy-policy.html" style="color:#ffd95e;margin:0 8px">Privacy Policy</a>·<a href="faq.html" style="color:#ffd95e;margin:0 8px">FAQ</a>
 </div>
 <script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
 </body>
